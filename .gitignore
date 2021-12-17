@@ -23,10 +23,10 @@ yarn-error.log*
 
 #pycharm
 # Default ignored files
-/shelf/
-/workspace.xml
+/.idea/shelf/
+/.idea/workspace.xml
 # Datasource local storage ignored files
-/../../../../../../../:\Users\athen\Documents\Self\cv\.idea/dataSources/
-/dataSources.local.xml
+/.idea/../../../../../../../:\Users\athen\Documents\Self\cv\.idea/dataSources/
+/.idea/dataSources.local.xml
 # Editor-based HTTP Client requests
-/httpRequests/
+/.idea/httpRequests/
