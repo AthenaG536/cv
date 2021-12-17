@@ -1,42 +1,25 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
+    "name":"Athena Gardner",
+    "description":"Adaptable, determined & a life-long learner",
+    "image":"profilepic.png",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "email": "athena536@hotmail.com",
+    "phone": "0211-44-8275",
+    "github":"https://github.com/AthenaG536",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"Auckland",
+      "country":"New Zealand"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/athena-gardner/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",
@@ -49,14 +32,14 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
+        "school":"Unitec Institute of Technology",
+        "degree":"Bachelor of Computing Systems",
+        "graduated":"TBC",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
+        "school":"John Paul College",
+        "degree":"NCEA Levels 1, 2 & 3",
         "graduated":"March 2013",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
@@ -81,104 +64,56 @@
         "level":"60%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"JAVA",
+        "level":"50%"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "level":"20%"
       },
       {
         "name":"CSS",
         "level":"90%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name":"C#",
+        "level":"45%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "name":"SQL",
+        "level":"60%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"C++",
+        "level":"45%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"RiskTuit",
+        "category":"A Risk Management tool created for the client SevenBoxes in my Capstone Project at Unitec",
+        "image":"01.png",
+        "url":"https://risktuit.herokuapp.com/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Birds Eye View",
+        "category":"A mobile application for birding",
+        "image":"02.png",
+        "url":"https://github.com/AthenaG536/Birds-Eye-View"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Bubbles",
+        "category":"Social media focused on keeping those in your community connected.",
+        "image":"03.png",
+        "url":"https://bubbles-by-tam.herokuapp.com/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"MelodyBridge",
+        "category":"Music streaming website utilizing Google web services",
+        "image":"04.png",
+        "url":"https://melodybridge.online/"
       }
     ]
   }
