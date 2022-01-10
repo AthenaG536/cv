@@ -15,6 +15,7 @@ c. Default Styles
    4. Images
    5. Buttons
    6. Forms
+   7. Colour Palete
 d. Grid
 e. Others
    1. Clearing
@@ -87,7 +88,8 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+/*blockquote, q { */
+/*    quotes: &#8220 &#8220; }*/
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -142,7 +144,7 @@ html {
 }
 
 body {
-   background: #fff;
+   background: #dce2ff;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
    font-size: 15px;
@@ -216,7 +218,7 @@ blockquote cite {
 }
 blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a,
-blockquote cite a:visited { color: #8B9798; border: none }
+blockquote cite a:visited { color: #6941D9; border: none }
 
 /* ---------------------------------------------------------------------
 /*  Pull Quotes Markup
@@ -280,7 +282,7 @@ abbr:hover { cursor: help; }
 	color: inherit;
 }
 
-hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
+hr { border: solid #dce2ff; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
 
 
 /*  3. Links  ------------------------------------------------------- */
@@ -288,14 +290,14 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #3300BF;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
    -o-transition: color .3s ease-in-out;
    transition: color .3s ease-in-out;
 }
-a:hover, a:focus { color: #313131; }
+a:hover, a:focus { color: #dce2ff; }
 p a, p a:visited { line-height: inherit; }
 
 
@@ -334,7 +336,7 @@ li p { }
 	display: inline-block;
 	margin: 0 10px 18px 0;
 	padding: 0 10px 0 0;
-	border-right: 1px solid #ccc;
+	border-right: 1px solid #dce2ff;
 }
 .stats-tabs li:last-child {
 	margin: 0;
@@ -349,19 +351,19 @@ li p { }
    color: #313131;
 }
 .stats-tabs li a:hover {
-   color:#11ABB0;
+   color:#3300C7;
 }
 .stats-tabs li a b {
 	display: block;
 	margin: 6px 0 0 0;
 	font-size: 13px;
 	font-family: 'opensans-regular', sans-serif;
-   color: #8B9798;
+   color: #dce2ff;
 }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
+dt { margin: 0; color:#3300C7; }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -416,8 +418,8 @@ dd { margin: 0 0 0 20px; }
    padding: 6px 10px;
    margin-right: 3px;
    margin-bottom: 6px;
-	color: #6E757C;
-	background-color: #E6E8EB;
+	color: #000099;
+	background-color: #dce2ff;
 
 	-webkit-transition: all 200ms ease-in-out;
 	-moz-transition: all 200ms ease-in-out;
@@ -431,17 +433,17 @@ dd { margin: 0 0 0 20px; }
 	border-radius: 0px;
 }
 .pagination .page-numbers:hover {
-   background: #838A91;
-   color: #fff;
+   background: #000099;
+   color: #dce2ff;
 }
 .pagination .current,
 .pagination .current:hover {
    background-color: #11ABB0;
-   color: #fff;
+   color: #dce2ff;
 }
 .pagination .inactive,
 .pagination .inactive:hover {
-   background-color: #E6E8EB;
+   background-color: #dce2ff;
 	color: #A9ADB2;
 }
 .pagination .prev, .pagination .next {}
@@ -464,11 +466,11 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #6941D9;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
-   color: #fff;
+   color: #dce2ff;
 	padding: 12px 20px;
 	margin-bottom: 18px;
    border: none;
@@ -493,7 +495,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
    background: #3d4145;
-   color: #fff;
+   color: #dce2ff;
 }
 
 .button:active,
@@ -502,7 +504,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
    background: #3d4145;
-   color: #fff;
+   color: #dce2ff;
 }
 
 .button.full-width,
@@ -545,7 +547,7 @@ select {
    font-size: 15px;
    line-height: 24px;
 	color: #647373;
-	background: #D3D9D9;
+	background: #dce2ff;
 
 }
 
@@ -584,6 +586,32 @@ input[type="radio"] {
 
 input[type="checkbox"] { display: inline; }
 
+
+/*  7. Colour Palette  ------------------------------------------------------- */
+.primary {
+    color: #3300C7;
+}
+
+.secondary {
+    color: #6941D9;
+}
+
+.primarylight {
+    color: #dce2ff;
+}
+
+.secondarylight {
+    color: #9cb0ff;
+}
+
+.primarydark {
+    color: #160052;
+}
+
+.secondarydark {
+    color: #000099;
+}
+
 /* ------------------------------------------------------------------ */
 /* d. Grid
 ---------------------------------------------------------------------
@@ -613,6 +641,12 @@ input[type="checkbox"] { display: inline; }
 .row:after {
     clear: both;
 }
+
+/* hidden class for parts that are WIP */
+.hide {
+    display: none;
+}
+
 
 .column, .columns {
    position: relative;
