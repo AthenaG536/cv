@@ -25,20 +25,47 @@ class Contact extends Component {
 
     return (
         <section id="contact">
-          <Fade bottom duration={1000}>
-            <div className="row section-head">
+          <div className="row section-head">
+
+
+            <Slide left duration={1000}>
               <div className="two columns header-col">
                 <h2 className="primarylight">
                   <span>Get In Touch.</span>
                 </h2>
               </div>
 
-              <div className="ten columns">
+              <div className="five columns">
                 <p className="lead">{message}</p>
               </div>
-            </div>
-          </Fade>
 
+            </Slide>
+
+
+
+            <Slide right duration={1000}>
+              <div className="four columns">
+                <div className="widget widget_contact contact-details">
+                    <div className="address">
+                      {name}
+                      <br />
+                      <span>{phone}</span>
+                      <br />
+                      <a href={mailtoemail}><span>{email}</span></a>
+                    </div>
+
+                </div>
+
+
+              </div>
+              <div className="one columns">
+                <h2>
+                  <ul className="social-links">{networks}</ul>
+                </h2>
+              </div>
+            </Slide>
+
+          </div>
           <div className="row hide">
             <Slide left duration={1000}>
               <div className="eight columns">
@@ -132,36 +159,7 @@ class Contact extends Component {
           </div>
 
 
-          <div className="row">
-            <Slide left duration={1000}>
 
-            </Slide>
-
-            <Slide right duration={1000}>
-              <aside className="twelve columns footer-widgets">
-                <div className="widget widget_contact">
-                  <h2 className="primarylight align-center">Connect with me</h2>
-                  <div className="five columns">
-                    <h2>
-                      <ul className="social-links">{networks}</ul>
-                    </h2>
-                  </div>
-
-                  <div className="seven columns">
-                    <p className="address">
-                      {name}
-                      <br />
-                      <span>{phone}</span>
-                      <br />
-                      <a href={mailtoemail}><span>{email}</span></a>
-                    </p>
-                  </div>
-                </div>
-
-
-              </aside>
-            </Slide>
-          </div>
         </section>
     );
   }
