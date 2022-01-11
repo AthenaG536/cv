@@ -75,7 +75,6 @@ class Portfolio extends Component {
                     <div className="row">
                         <div className="twelve columns collapsed">
                             <h1>Check Out Some of My Work</h1>
-                            {/* TODO need to update this div below to slideshow and open link onclick*/}
                             <div
                                 id="portfolio-wrapper"
                                 className="bgrid-quarters s-bgrid-thirds cf">
