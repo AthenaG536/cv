@@ -84,6 +84,9 @@ header .social {
    padding: 0;
    font-size: 30px;
 }
+header .button {
+    border-radius: 14px;
+}
 header .social li {
    display: inline-block;
    margin: 0 15px;
@@ -213,11 +216,13 @@ ul#nav li.current a { color: #fe6928; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #3300C7;
+   color: #dce2ff;
+    border-radius: 14px;
 }
 #about .download .button:hover {
    background: #dce2ff;
-   color: #2B2B2B;
+   color: #160052;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -255,7 +260,7 @@ ul#nav li.current a { color: #fe6928; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .volunteering {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #dce2ff;
@@ -411,23 +416,23 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #e8eef1;
+   background: #ffffff;
    padding-top: 90px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 48px;
-   color: #95A3A3;
+   margin-bottom: 24px;
+   color: #160052;
 }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #ffffff;
+   background: #dce2ff;
    overflow: hidden;
    position: relative;
 
@@ -440,6 +445,10 @@ ul#nav li.current a { color: #fe6928; }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+}
+.portfolio-item p {
+    color: #01081d;
+    margin: 10px;
 }
 
 /* overlay */
@@ -526,12 +535,12 @@ ul#nav li.current a { color: #fe6928; }
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: #e8eef1;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   color: #e8eef1;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
@@ -795,8 +804,8 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a { color: #ffffff; }
-#contact a:visited { color: #9cb0ff; }
+#contact a { color: #9cb0ff; }
+#contact a:visited { color: #dce2ff; }
 #contact a:hover, #contact a:focus { color: #3300C7; }
 
 #contact h1 {
