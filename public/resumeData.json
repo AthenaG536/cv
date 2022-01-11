@@ -3,12 +3,14 @@
     "name":"Athena Gardner",
     "description":"Adaptable, determined & a life-long learner",
     "image":"profilepic.png",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio1":"I am very excited to start my career in development. Whether that be in game, app, mobile, or web development, I am keen to get started. I would also love the opportunity to be involved in testing and quality assurance whether or not that is my primary role.",
+    "bio2":"I enjoy doing creative activities, gaming, gardening, paddle boarding and spending time with my friends, family and kitten.",
+
+    "contactmessage":"Feel free to reach out on LinkedIn or contact me via email or text.",
     "email": "athena536@hotmail.com",
     "phone": "0211-44-8275",
-    "github":"https://github.com/AthenaG536",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "github":"https://github.com/AthenaG536/",
+    "project":"https://github.com/AthenaG536/cv",
     "address":{
       "city":"Auckland",
       "country":"New Zealand"
@@ -17,75 +19,94 @@
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
+        "name":"email",
+        "url":"mailto:athena536@hotmail.com",
+        "className":"fa fa-envelope"
+      },
+      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/athena-gardner/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/AthenaG536/",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
         "school":"Unitec Institute of Technology",
         "degree":"Bachelor of Computing Systems",
-        "graduated":"TBC",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"April 2022*",
+        "description":""
       },
       {
         "school":"John Paul College",
         "degree":"NCEA Levels 1, 2 & 3",
         "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"South Auckland Plumbing",
+        "title":"Technical Writer",
+        "years":"March 2021 - Present",
+        "description":"Designing and finalizing documentation for internal and external use and assisting in developing new processes."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Manna Christian Stores",
+        "title":"Various positions",
+        "years":"December 2014 - July 2021",
+        "description":"I fulfilled various positions from Order Picker to Store Manager and while I was studying I filled roles on an as-needed, where-needed basis, including but not limited to Data Entry Clerk, Technical Writer, SME and Project Liaison Officer. I worked closely, primarily with the marketing team and the purchasing team, as well as working remotely in an individual capacity."
       }
     ],
+    "volunteering":[
+      {
+        "company":"Beachlands Baptist",
+        "title":"Youth Leader",
+        "years":"February 2015 - June 2019",
+        "description":"I worked in a team of wonderful youth leaders to plan, organize & run the youth group every week during the school terms. I focused on helping youth feel welcome, included and heard."
+      },
+      {
+        "company":"Northern Easter Camp",
+        "title":"Electrician Assistant",
+        "years":"Apr 2019",
+        "description":"I assisted in setting up campsite power & lighting in the week prior to camp and packing up in the few days after camp. I also turned on and off the lights at high foot traffic areas across camp (at Mystery Creek) in a timely manner every night."
+      }
+    ],
+    "skillmessage":"Over the years I have done a variety of projects throughout my education, professional life and personal time. I have a passion for learning and I enjoy taking on a challenge. React.js has been the most difficult for me to learn so I chose to create this website using a React template and play around with it to familiarise myself with the structure more. As I am still learning and developing my skills I refer to documentation quite often especially for specific syntax.",
     "skills":[
       {
         "name":"Python",
-        "level":"60%"
+        "level":"55%"
       },
       {
         "name":"JAVA",
-        "level":"50%"
+        "level":"45%"
       },
       {
         "name":"ReactJs",
-        "level":"20%"
+        "level":"15%"
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"80%"
       },
       {
         "name":"C#",
-        "level":"45%"
+        "level":"35%"
       },
       {
         "name":"SQL",
-        "level":"60%"
+        "level":"50%"
       },
       {
         "name":"C++",
-        "level":"45%"
+        "level":"35%"
       }
     ]
   },
