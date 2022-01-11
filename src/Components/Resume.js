@@ -41,6 +41,19 @@ class Resume extends Component {
       );
     });
 
+    const volunteering = this.props.data.volunteering.map(function (volunteering) {
+      return (
+        <div key={volunteering.company}>
+          <h3>{volunteering.company}</h3>
+          <p className="info">
+            {volunteering.title}
+            <span>&bull;</span> <em className="date">{volunteering.years}</em>
+          </p>
+          <p>{volunteering.description}</p>
+        </div>
+      );
+    });
+
     const skills = this.props.data.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
@@ -66,6 +79,8 @@ class Resume extends Component {
 
             <div className="nine columns main-col">
               <div className="row item">
+
+              {/* TODO need to update Education Description in JSON file resumeData.json */}
                 <div className="twelve columns">{education}</div>
               </div>
             </div>
@@ -85,6 +100,19 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
+          <div className="row volunteering">
+            <div className="three columns header-col">
+              <h1>
+                Volunteer
+                <span> Experience</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{volunteering}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
@@ -93,7 +121,9 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage}</p>
+              <div>
+                  <p>{skillmessage}</p>
+              </div>
 
               <div className="bars">
                 <ul className="skills">{skills}</ul>
