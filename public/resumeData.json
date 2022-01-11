@@ -16,12 +16,12 @@
       "country":"New Zealand"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"/docs/Athena-Gardner-CV_2021-12-07.pdf",
     "social":[
       {
-        "name":"email",
-        "url":"mailto:athena536@hotmail.com",
-        "className":"fa fa-envelope"
+        "name":"github",
+        "url":"https://github.com/AthenaG536/",
+        "className":"fa fa-github"
       },
       {
         "name":"linkedin",
@@ -29,10 +29,11 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"https://github.com/AthenaG536/",
-        "className":"fa fa-github"
+        "name":"email",
+        "url":"mailto:athena536@hotmail.com",
+        "className":"fa fa-envelope"
       }
+
     ]
   },
   "resume":{
@@ -86,7 +87,7 @@
       },
       {
         "name":"JAVA",
-        "level":"45%"
+        "level":"35%"
       },
       {
         "name":"ReactJs",
@@ -94,19 +95,19 @@
       },
       {
         "name":"CSS",
-        "level":"80%"
+        "level":"70%"
       },
       {
         "name":"C#",
-        "level":"35%"
+        "level":"30%"
       },
       {
         "name":"SQL",
-        "level":"50%"
+        "level":"40%"
       },
       {
         "name":"C++",
-        "level":"35%"
+        "level":"30%"
       }
     ]
   },
@@ -114,27 +115,36 @@
     "projects": [
       {
         "title":"RiskTuit",
-        "category":"A Risk Management tool created for the client SevenBoxes in my Capstone Project at Unitec",
+        "category":"website",
+        "description":"A website that is a Risk Management tool created for the client SevenBoxes in my Capstone Project at Unitec",
         "image":"01.png",
-        "url":"https://risktuit.herokuapp.com/"
+        "url_github":"https://github.com/The-Triple-Shots/pria",
+        "url_project":"https://risktuit.herokuapp.com/"
       },
       {
         "title":"Birds Eye View",
-        "category":"A mobile application for birding",
+        "category":"mobile",
+        "subcategory":"android",
+        "description":"A mobile application for birding I created individually in one of my classes, I will continue working on this as I want to actually use this application",
         "image":"02.png",
-        "url":"https://github.com/AthenaG536/Birds-Eye-View"
+        "url_project": "https://user-images.githubusercontent.com/64632419/146109428-34e42497-927c-4efe-b78f-72f055eafe3a.mp4",
+        "url_github":"https://github.com/AthenaG536/Birds-Eye-View"
       },
       {
         "title":"Bubbles",
-        "category":"Social media focused on keeping those in your community connected.",
+        "category":"website",
+        "description":"A team project of a social media website focused on keeping those in your community connected.",
         "image":"03.png",
-        "url":"https://bubbles-by-tam.herokuapp.com/"
+        "url_github":"https://github.com/TAM-Team/Bubbles",
+        "url_project":"https://bubbles-by-tam.herokuapp.com/"
       },
       {
         "title":"MelodyBridge",
-        "category":"Music streaming website utilizing Google web services",
+        "category":"website",
+        "description":"A music streaming website utilizing Google web services that I developed within a team in a cloud application class",
         "image":"04.png",
-        "url":"https://melodybridge.online/"
+        "url_github":"https://github.com/AthenaG536/melodybridge",
+        "url_project":"https://melodybridge.online/"
       }
     ]
   }
