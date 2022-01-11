@@ -477,6 +477,9 @@ input[type="button"] {
    cursor: pointer;
    height: auto;
 
+
+    border-radius: 14px;
+
    -webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
