@@ -8,3 +8,8 @@ This is my website CV that was forked from [https://github.com/tbakerx/react-res
 #
 #### About [`particles-bg`](https://github.com/lindelof/particles-bg) Library
 ##### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg). 
+
+
+#### Local Troubleshooting
+- Running yarn install should install the dependencies, however react has had issues with node versions >= 17. Use node 16.19.0 to resolve this.
+- To run this website locally use `yarn run start`
