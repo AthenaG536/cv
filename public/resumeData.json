@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Athena Gardner",
-    "description":"Adaptable, determined & a life-long learner",
+    "description":"Adaptable, determined & life-long learner",
     "image":"profilepic.png",
-    "bio1":"I am very excited to start my career in development. Whether that be in game, app, mobile, or web development, I am keen to get started. I would also love the opportunity to be involved in testing and quality assurance whether or not that is my primary role.",
-    "bio2":"I enjoy doing creative activities, gaming, gardening, paddle boarding and spending time with my friends, family and kitten.",
+    "bio1":"As a long-time gamer & passionate developer, I am looking forward to continuing my career in game and software development. I would love the opportunity to be more involved in production and/or automated testing & quality assurance.",
+    "bio2":"Aside from gaming, I enjoy creative activities, gardening, paddle boarding and spending time with my friends, family and cat.",
 
     "contactmessage":"Feel free to reach out on LinkedIn or contact me via email or text.",
     "email": "athena536@hotmail.com",
@@ -53,6 +53,12 @@
     ],
     "work":[
       {
+        "company":"Blackout Games",
+        "title":"Junior Backend/Dev Ops Developer",
+        "years":"March 2022 - Present",
+        "description":"Through working mainly on the upcoming Blackout Football Manager game, I've loved working alongside design, UI & frontend teams to resolve issues & to create a game we can all be proud of. I've been working on new and existing features for both the new football game & the existing Blackout Rugby Manager game. I'm especially proud of my work on getting the more complicated football gameplans integrated with existing systems."
+      },
+      {
         "company":"South Auckland Plumbing",
         "title":"Technical Writer",
         "years":"March 2021 - Present",
@@ -79,8 +85,16 @@
         "description":"I assisted in setting up campsite power & lighting in the week prior to camp and packing up in the few days after camp. I also turned on and off the lights at high foot traffic areas across camp (at Mystery Creek) in a timely manner every night."
       }
     ],
-    "skillmessage":"Over the years I have done a variety of projects throughout my education, professional life and personal time. I have a passion for learning and I enjoy taking on a challenge. React.js has been the most difficult for me to learn so I chose to create this website using a React template and play around with it to familiarise myself with the structure more. As I am still learning and developing my skills I refer to documentation quite often especially for specific syntax.",
+    "skillmessage":"Over the years I have done a variety of projects throughout my education, professional life and personal time. I have a passion for learning and I enjoy taking on a challenge. React.js has been a challenge for me to learn so I chose to create this website using a React template and play around with it to familiarise myself with the structure more. As I am still learning and developing my skills I refer to documentation quite often especially for specific syntax. I have also used frameworks such as jest for testing.",
     "skills":[
+      {
+        "name":"Javascript",
+        "level":"70%"
+      },
+      {
+        "name":"Node.js",
+        "level":"60%"
+      },
       {
         "name":"Python",
         "level":"55%"
@@ -95,7 +109,7 @@
       },
       {
         "name":"CSS",
-        "level":"70%"
+        "level":"60%"
       },
       {
         "name":"C#",
@@ -113,6 +127,22 @@
   },
   "portfolio":{
     "projects": [
+      {
+        "title":"Blackout Football Manager",
+        "category":"game",
+        "description":"This is a modern, multiplayer, social, world-class Football Manager Game! Take control of a novice club and fend your way to glory.",
+        "image":"bfm.png",
+        "url_github":"https://github.com/AthenaG536",
+        "url_project":"https://www.athena-gardner.com/Blackout-Football-Manager"
+      },
+      {
+        "title":"My CV",
+        "category":"website",
+        "description":"This website built using ReactJs, adapted from a Tim Baker project to suit my style & needs",
+        "image":"ag_v2.png",
+        "url_github":"https://github.com/AthenaG536/cv",
+        "url_project":"https://athena-gardner.com/"
+      },
       {
         "title":"RiskTuit",
         "category":"website",

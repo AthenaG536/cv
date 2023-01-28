@@ -16,7 +16,7 @@ class Footer extends Component {
                 <li>&copy; Copyright 2021 Athena Gardner</li>
                 <li>
                   Original Design by{" "}
-                  <a title="Styleshout" href="http://www.styleshout.com/">
+                  <a title="Styleshout" href="www.styleshout.com">
                     Styleshout
                   </a>
                 </li>
