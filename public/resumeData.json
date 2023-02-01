@@ -131,7 +131,7 @@
         "title":"Blackout Football Manager",
         "category":"game",
         "description":"This is a modern, multiplayer, social, world-class Football Manager Game! Take control of a novice club and fend your way to glory.",
-        "image":"bfm.png",
+        "image":"01.png",
         "url_github":"https://github.com/AthenaG536",
         "url_project":"https://www.athena-gardner.com/Blackout-Football-Manager"
       },
@@ -144,14 +144,6 @@
         "url_project":"https://athena-gardner.com/"
       },
       {
-        "title":"RiskTuit",
-        "category":"website",
-        "description":"A website that is a Risk Management tool created for the client SevenBoxes in my Capstone Project at Unitec",
-        "image":"01.png",
-        "url_github":"https://github.com/The-Triple-Shots/pria",
-        "url_project":"https://risktuit.herokuapp.com/"
-      },
-      {
         "title":"Birds Eye View",
         "category":"mobile",
         "subcategory":"android",
@@ -161,12 +153,12 @@
         "url_github":"https://github.com/AthenaG536/Birds-Eye-View"
       },
       {
-        "title":"Bubbles",
+        "title":"RiskTuit",
         "category":"website",
-        "description":"A team project of a social media website focused on keeping those in your community connected.",
+        "description":"A website that is a Risk Management tool created for the client SevenBoxes in my Capstone Project at Unitec",
         "image":"03.png",
-        "url_github":"https://github.com/TAM-Team/Bubbles",
-        "url_project":"https://bubbles-by-tam.herokuapp.com/"
+        "url_github":"https://github.com/The-Triple-Shots/pria",
+        "url_project":"https://risktuit.herokuapp.com/"
       },
       {
         "title":"MelodyBridge",
@@ -175,6 +167,14 @@
         "image":"04.png",
         "url_github":"https://github.com/AthenaG536/melodybridge",
         "url_project":"https://melodybridge.online/"
+      },
+      {
+        "title":"Bubbles",
+        "category":"website",
+        "description":"A team project of a social media website focused on keeping those in your community connected.",
+        "image":"05.png",
+        "url_github":"https://github.com/TAM-Team/Bubbles",
+        "url_project":"https://bubbles-by-tam.herokuapp.com/"
       }
     ]
   }
