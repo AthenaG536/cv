@@ -8,7 +8,7 @@
 
     "contactmessage":"Feel free to reach out on LinkedIn or contact me via email or text.",
     "email": "athena536@hotmail.com",
-    "phone": "0211-44-8275",
+    "phone": "0211 44 8275",
     "github":"https://github.com/AthenaG536/",
     "project":"https://github.com/AthenaG536/cv",
     "address":{
@@ -54,7 +54,7 @@
     "work":[
       {
         "company":"Blackout Games",
-        "title":"Junior Backend/Dev Ops Developer",
+        "title":"Intermediate Backend/Dev Ops Developer",
         "years":"March 2022 - Present",
         "description":"Through working mainly on the upcoming Blackout Football Manager game, I've loved working alongside backend, design, UI & frontend teams to resolve issues & to create a game we can all be proud of. I've been working on new and existing features for both the new football game & the existing Blackout Rugby Manager game. I'm especially proud of my work on getting the more complicated football gameplans integrated with existing systems."
       },
