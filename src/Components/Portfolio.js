@@ -64,7 +64,7 @@ class Portfolio extends Component {
                                 {slider}
                                 <div style={{ textAlign: "center" }}>
                                     <p> I'm currently working on adding my career highlights during my time at Blackout Games. Watch this space!</p>
-                                    <button onClick={this.toggle} className="button btn portfolio-btn">
+                                    <button onClick={this.toggle} className="button btn portfolio-btn portfolio-btn-full">
                                         <i className="fa fa-caret-up"></i> Hide Highlights
                                     </button>
                                 </div>
