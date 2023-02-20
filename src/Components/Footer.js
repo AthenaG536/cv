@@ -3,6 +3,8 @@ import Fade from "react-reveal";
 
 class Footer extends Component {
   render() {
+    if (!this.props.data) return null;
+    const credits = this.props.data.credits;
 
     return (
       <footer>
@@ -16,7 +18,7 @@ class Footer extends Component {
                 <li>&copy; Copyright 2021 Athena Gardner</li>
                 <li>
                   Original Design by{" "}
-                  <a title="Styleshout" href="www.styleshout.com">
+                  <a title="Styleshout" href="{credits.styleshout.url}">
                     Styleshout
                   </a>
                 </li>

@@ -746,6 +746,7 @@ properly.
    .s-bgrid-quarters [class*="column"] { width: 25%; }
    .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
    .s-bgrid-halves [class*="column"]   { width: 50%; }
+   .s-bgrid-two-thirds [class*="column"]   { width: 66.66666%; }
 
    /* block grids left clearing */
    .first { clear: none; }

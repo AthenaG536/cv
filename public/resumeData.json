@@ -33,8 +33,12 @@
         "url":"mailto:athena536@hotmail.com",
         "className":"fa fa-envelope"
       }
-
-    ]
+    ],
+    "credits":{
+      "styleshout":{
+        "url": "https://www.styleshout.com/"
+      }
+    }
   },
   "resume":{
     "education":[

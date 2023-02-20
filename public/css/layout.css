@@ -474,6 +474,16 @@ ul#nav li.current a { color: #fe6928; }
     border-radius: 14px;
     color: #dce2ff;
 }
+#portfolio .portfolio-btn-full {
+    width: 80%;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    margin-bottom: 5%;
+    border-radius: 14px;
+    color: #dce2ff;
+}
 #portfolio .portfolio-btn:hover {
     background: #9cb0ff;
 }
